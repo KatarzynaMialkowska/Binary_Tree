@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     if(argc==3){
         for (int i = 1; i <= 2; i++) {
             if (!isdigit(*argv[i])) {
-                 std::cout << "ARGUMENTY MUSZA BYC LICZBA\n";
+                 std::cout << "ARGUMENTS MUST BE NUMBER\\n";
                 exit(EXIT_FAILURE);
             }
         }
@@ -25,13 +25,13 @@ int main(int argc, char *argv[])
 
     }else{
 
-        std::cout << "ZLA LICZBA ARGUMENTOW\nliczba losowan<n> maksymalny zakres<max>\n";
+        std::cout << "WRONG NUMBER OF ARGUMENTS\nnumber of draws<n> makximum range<max>\n";
         exit (EXIT_FAILURE);
 
     }
 
-    std::uniform_int_distribution<int> dist1 ( 0, max ); //klasa szablonowa
-    std::mt19937 gen ( time ( NULL ) ); //generator pseudolosowy Mersenne Twister 32bit
+    std::uniform_int_distribution<int> dist1 ( 0, max ); 
+    std::mt19937 gen ( time ( NULL ) ); // pseudo-random generator Mersenne Twister 32bit
     
     std::cout<<n<<"\n";
     for( int i = 0; i < n; i++ ) {

@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     if(argc==3){
         for (int i = 1; i <= 2; i++) {
             if (!isdigit(*argv[i])) {
-                 std::cout << "ARGUMENTS MUST BE NUMBER\\n";
+                 std::cout << "ARGUMENTS MUST BE NUMBER\n";
                 exit(EXIT_FAILURE);
             }
         }

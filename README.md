@@ -22,13 +22,13 @@ Author: Katarzyna Miałkowska
 ## Makefile ##
 -To compile all programs, execute:
  make all
-- To clean the contents of unnecessary files, perform:
+- To clean the contents of unnecessary files, execute:
  make clean
 - To run BinaryTree.cxx execute:
 make binarytree
 - To run TreeIteration.cxx execute:
 make treeiteration
-- To run the tester perform:
+- To run the tester, execute:
 make test
 
 ## Tester ##

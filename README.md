@@ -32,7 +32,8 @@ make treeiteration
 make test
 
 ## Tester ##
-TestBinaryTree.cxx and TestBinaryTree.hxx
-The program creates a small BST tree, displays it graphically in the terminal and displays its properties.
-The program creates a BST for 100,000 data and checks if its structure is correct.
-The program compares tree display time, number lookup, recursively and iteratively. 
+- TestBinaryTree.cxx and TestBinaryTree.hxx.
+
+- The program creates a small BST tree, displays it graphically in the terminal and displays its properties.
+- The program creates a BST for 100,000 data and checks if its structure is correct.
+- The program compares tree display time, number lookup, recursively and iteratively. 

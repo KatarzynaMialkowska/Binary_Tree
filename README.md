@@ -5,7 +5,7 @@ Author: Katarzyna Miałkowska
 ## Contents ##
 1) generator.cxx
 - Generate random output by accepting in argument
-(number of draws) (maximum range)
+[number of draws] [maximum range]
 
 2) BinaryTree.hxx
 - Contains BST implementations and its main methods

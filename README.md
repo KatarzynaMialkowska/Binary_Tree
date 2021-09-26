@@ -26,7 +26,7 @@ Author: Katarzyna Miałkowska
  make clean
 - To run BinaryTree.cxx execute:
 make binarytree
-- To run task2 execute:
+- To run TreeIteration.cxx execute:
 make treeiteration
 - To run the tester perform:
 make test
